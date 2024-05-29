@@ -1,0 +1,168 @@
+.deals-week .count-down div {
+    height: 85px;
+    width: 80px;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.gio {
+    width: 100px;
+    height: 100px;
+    background-color: #0151ff;
+}
+
+.phut {
+    width: 100px;
+    height: 100px;
+    background-color: #ed2363;
+}
+
+.giay {
+    width: 1000px;
+    height: 200px;
+    background: rgb(252, 144, 4);
+}
+.it{
+background-color: white;
+border-radius: 20px;
+padding: 50px 20px;
+margin: 10px 5px;
+text-align: center;
+}
+.single-footer-widget form {
+    position: relative;
+}
+.single-footer-widget form .icon10 {
+    top: 50%;
+    left: 30px;
+    position: absolute;
+    transform: translateY(-50%);
+    color: black;
+}
+
+.single-footer-widget form .input-email {
+    height: 50px;
+    border-radius: 30px;
+    color: rgba(0, 0, 0, 0.845);
+    padding-left: 55px;
+    padding-right: 50px;
+    
+}
+
+.single-footer-widget form button {
+    top: 50%;
+    border: 0;
+    padding: 0;
+    right: 5px;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    border-radius: 50%;
+    color: white;
+    transform: translateY(-50%);
+    transition: 0.5s;
+    background-color: #ed2363;
+}
+
+.best-offers-this-week-box .content1,
+.best-offers-this-week-box .content2 {
+    top: 0;
+    left: 0;
+    padding: 40px 50px;
+    position: absolute;
+}
+
+.best-offers-this-week-box .content1 span ,
+.best-offers-this-week-box .content2 span {
+    color: white;
+    font-size: 18px;
+    font-weight: normal;
+    font-family: "Poppins", sans-serif;
+}
+
+.best-offers-this-week-box .content1 h3,
+.best-offers-this-week-box .content2 h3{
+    color:white;
+    margin-bottom: 15px;
+    margin-top: 10px;
+    font-size: 36px;
+    font-weight: normal;
+    font-family:  "Poppins", sans-serif;
+}
+.best-offers-this-week-box .content1 .default-btn
+{
+    padding: 10px 25px;
+    color: black;
+    background-color: white;
+    text-decoration: none;
+    border-radius: 40px;
+}
+.best-offers-this-week-box .content2 .default-btn
+{
+    padding: 10px 25px;
+    color: rgb(255, 255, 255);
+    background-color: #4f3daa;
+    text-decoration: none;
+    border-radius: 40px;
+}
+
+
+.best-offers-this-week-box .content1 .default-btn:hover,
+.best-offers-this-week-box .content2 .default-btn:hover{
+    background-color: #ed2363;
+    color: white;
+    transition: 0.8s;
+}
+
+.best-offers-this-week-area h3:hover{
+    color: #ed2363;
+    transition: .1s;
+}
+
+
+ .buttons-list {
+    left: 0;
+    top: 50%;
+    right: 0;
+    opacity: 0;
+    margin-top: 10px;
+    position: absolute;
+    visibility: hidden;
+    transition: .5s;
+}
+
+  .buttons-list button {
+    padding: 0;
+    width: 40px;
+    height: 40px;
+    border: none;
+    font-size: 16px;
+    position: relative;
+    border-radius: 50%;
+    color: white;
+    background-color: #f43874;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.product-box:hover .image .buttons-list {
+    opacity: 1;
+    margin-top: 0;
+    visibility: visible;
+}
+.deals  .btn-add:hover {
+    background-color:#4f3daa !important;
+    color: white;
+    transition: 0.8s;
+}
+.btn-all:hover{
+    background: #4f3daa !important;
+    color: white;
+    transition: 0.8s;
+}
+.brands-area .brand-item{
+    border: 1px solid rgb(175, 175, 175);
+    padding: 40px;
+}
